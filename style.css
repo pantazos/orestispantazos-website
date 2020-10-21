@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600");
+body { background-color: #2a2c35; color: #ddd; font: normal normal normal 11pt/1.6em "Source Code Pro", menlo, dejavu sans mono, bitstream vera sans mono, panic sans, droid sans mono, monospace; margin: 0; animation: bgtetrad 15s linear infinite alternate; -webkit-animation: bgtetrad 15s linear infinite alternate; }
+
+@keyframes bgtetrad { 0% { background-color: #2a2c35; }
+  25% { background-color: #2e2435; }
+  50% { background-color: #35302a; }
+  75% { background-color: #352431; } }
+
+#content { min-width: 30ex; max-width: 80ex; margin: 1em; color: #c1c1c1; }
+
+a:link, a:hover, a:active, a:visited { color: #ffffff; }
+
+ul { list-style-type: square; padding-left: 1em; }
+
+h1, h2, h3, h4, h5 { color: #ffffff; font-size: inherit; font-weight: 700; margin: 1em 0 0; }
+
+hr { margin: 1ex 0; border: 1px solid #999; }
+
+pre { margin-left: 2em; font: inherit; }
+
+code { font: inherit; color: #cea; margin-left: 0; }
+
+/*# sourceMappingURL=about.css.map */
